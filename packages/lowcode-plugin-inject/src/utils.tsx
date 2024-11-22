@@ -3,7 +3,7 @@ import fetchJsonp from 'fetch-jsonp';
 import * as React from 'react';
 import { pascal } from 'case';
 import { Notification } from '@alifd/next';
-import { buildComponents } from '@alilc/lowcode-utils';
+import { buildComponents } from '@gant-lowcode/lowcode-utils';
 
 const typeMap = {
   vc: ['prototype', 'view'],
@@ -168,7 +168,7 @@ function envFilter(injects) {
   const urlParams = queryString.parse(window.location.search);
 
   // 从 window 或者 url 中获取当前是设计器还是预览环境；没有配置则读取 window 是否有 VisualEngine
-  const env = window.injectEnv || urlParams[injectEnvFlag] || (window.VisualEngine || window.LowcodeEditor || window.AliLowCodeEngine ? 'design' : 'preview') || 'design';
+  const env = window.injectEnv || urlParams[injectEnvFlag] || (window.VisualEngine || window.LowcodeEditor || window.GantLowCodeEngine ? 'design' : 'preview') || 'design';
 
   let device = urlParams[injectDeviceFlag] || (window.g_config && window.g_config.device) || (window.pageConfig && window.pageConfig.device) || 'web';
   if (device === 'both') { // 乐高有双端的能力，开启后 device 是 both

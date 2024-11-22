@@ -1,5 +1,5 @@
 {
-  "name": "@alilc/build-plugin-lce",
+  "name": "@gant-lowcode/build-plugin-lce",
   "version": "0.0.5",
   "description": "build plugin for LowCodeEngine",
   "main": "src/index.js",

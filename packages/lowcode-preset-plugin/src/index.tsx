@@ -1,13 +1,13 @@
-import { init, plugins } from '@alilc/lowcode-engine';
+import { init, plugins } from '@gant-lowcode/lowcode-engine';
 import { createFetchHandler } from '@alilc/lowcode-datasource-fetch-handler'
-import { IPublicTypeEngineOptions, IPublicTypePlugin } from '@alilc/lowcode-types';
+import { IPublicTypeEngineOptions, IPublicTypePlugin } from '@gant-lowcode/lowcode-types';
 
 import registerDefaultPlugins from './plugins';
 import registerDefaultSetters from './setters';
 
 import './index.scss';
 
-export * from '@alilc/lowcode-engine';
+export * from '@gant-lowcode/lowcode-engine';
 
 const defaultConfig = {
   // locale: 'zh-CN',

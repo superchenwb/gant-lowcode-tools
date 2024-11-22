@@ -1,5 +1,5 @@
 
-import { ComponentMetadata, Snippet } from '@alilc/lowcode-types';
+import { ComponentMetadata, Snippet } from '@gant-lowcode/lowcode-types';
 
 const ButtonMeta: ComponentMetadata = {
   "componentName": "Button",

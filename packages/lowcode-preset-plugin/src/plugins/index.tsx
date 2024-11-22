@@ -3,8 +3,8 @@ import {
   ILowCodePluginContext,
   plugins,
   project,
-} from '@alilc/lowcode-engine';
-import AliLowCodeEngineExt from '@alilc/lowcode-engine-ext';
+} from '@gant-lowcode/lowcode-engine';
+import GantLowCodeEngineExt from '@gant-lowcode/lowcode-engine-ext';
 import { Button, Icon } from '@alifd/next';
 import UndoRedoPlugin from '@alilc/lowcode-plugin-undo-redo';
 import ComponentsPane from '@alilc/lowcode-plugin-components-pane';
@@ -14,7 +14,6 @@ import DataSourcePanePlugin from '@alilc/lowcode-plugin-datasource-pane';
 import SchemaPlugin from '@alilc/lowcode-plugin-schema';
 import CodeEditor from "@alilc/lowcode-plugin-code-editor";
 import ManualPlugin from "@alilc/lowcode-plugin-manual";
-import Inject, { injectAssets } from '@alilc/lowcode-plugin-inject';
 import SimulatorResizer from '@alilc/lowcode-plugin-simulator-select';
 
 import Logo from './logo';
@@ -80,7 +79,7 @@ const registerDefaultPlugins = async (presetConfig) => {
 
   // 设置内置 setter 和事件绑定、插件绑定面板
   const setterRegistry = (ctx: ILowCodePluginContext) => {
-    const { setterMap, pluginMap } = AliLowCodeEngineExt;
+    const { setterMap, pluginMap } = GantLowCodeEngineExt;
     return {
       name: 'ext-setters-registry',
       async init() {

@@ -1,7 +1,7 @@
 {
   "plugins": [
     [
-      "@alilc/build-plugin-alt",
+      "@gant-lowcode/build-plugin-alt",
       {
         "type": "setter"
       }

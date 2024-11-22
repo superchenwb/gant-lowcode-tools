@@ -2,8 +2,8 @@ import * as React from 'react';
 import {
   plugins,
   skeleton,
-} from '@alilc/lowcode-engine';
-import { IPublicModelPluginContext } from '@alilc/lowcode-types';
+} from '@gant-lowcode/lowcode-engine';
+import { IPublicModelPluginContext } from '@gant-lowcode/lowcode-types';
 import Logo from '../../builtIn/logo';
 import UndoRedo from '@alilc/lowcode-plugin-undo-redo';
 import ComponentsPane from '@alilc/lowcode-plugin-components-pane';

@@ -1,5 +1,5 @@
 {
-  "name": "@alilc/rax-multiple-component-template",
+  "name": "@gant-lowcode/rax-multiple-component-template",
   "version": "0.1.1",
   "description": "rax 组件库模板",
   "main": "lib/index.js",

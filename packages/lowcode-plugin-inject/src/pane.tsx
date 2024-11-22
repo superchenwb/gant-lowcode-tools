@@ -1,9 +1,9 @@
-import { Checkbox, Table, Button } from "@alifd/next";
-import { IPublicModelPluginContext } from "@alilc/lowcode-types";
+import { Checkbox, Table, Button } from "antd";
+import { IPublicModelPluginContext } from "@gant-lowcode/lowcode-types";
 import * as React from 'react';
 import { InjectConfig } from "./controller";
 
-import './pane.scss'
+import './pane.css'
 
 export function Pane(props: {
   injectConfig: InjectConfig;

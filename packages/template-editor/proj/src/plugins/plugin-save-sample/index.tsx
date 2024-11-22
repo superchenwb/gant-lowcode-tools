@@ -1,4 +1,4 @@
-import { IPublicModelPluginContext } from '@alilc/lowcode-types';
+import { IPublicModelPluginContext } from '@gant-lowcode/lowcode-types';
 import { Button } from '@alifd/next';
 import {
   saveSchema,

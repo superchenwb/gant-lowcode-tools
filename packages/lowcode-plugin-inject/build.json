@@ -1,15 +1,9 @@
 {
   "plugins": [
     [
-      "@alilc/build-plugin-alt",
+      "@gant-lowcode/build-plugin-alt",
       {
         "type": "plugin"
-      }
-    ],
-    [
-      "build-plugin-fusion",
-      {
-        "themePackage": "@alifd/theme-lowcode-light"
       }
     ]
   ]

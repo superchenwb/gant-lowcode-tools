@@ -1,7 +1,7 @@
-import { material, project } from '@alilc/lowcode-engine';
-import { filterPackages } from '@alilc/lowcode-plugin-inject'
+import { material, project } from '@gant-lowcode/lowcode-engine';
+import { filterPackages } from '@gant-lowcode/lowcode-plugin-inject'
 import { Message, Dialog } from '@alifd/next';
-import { IPublicTypeProjectSchema, IPublicEnumTransformStage } from '@alilc/lowcode-types';
+import { IPublicTypeProjectSchema, IPublicEnumTransformStage } from '@gant-lowcode/lowcode-types';
 import DefaultPageSchema from './defaultPageSchema.json';
 import DefaultI18nSchema from './defaultI18nSchema.json';
 

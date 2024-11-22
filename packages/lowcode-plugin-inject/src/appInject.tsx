@@ -1,4 +1,4 @@
-import { IPublicModelPluginContext, IPublicEnumPluginRegisterLevel } from '@alilc/lowcode-types';
+import { IPublicModelPluginContext, IPublicEnumPluginRegisterLevel } from '@gant-lowcode/lowcode-types';
 import { getInjectedResource, injectAssets } from './utils';
 import Icon from './icon';
 import { Pane } from './pane';

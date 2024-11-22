@@ -41,17 +41,13 @@ export default (config: WebpackChain, { rootDir, entry, type, pkg, mainFile, gen
     "react-dom": "var window.ReactDOM",
     "prop-types": "var window.PropTypes",
     "@alifd/next": "var window.Next",
-    "@ali/visualengine": "var window.VisualEngine",
-    "@ali/visualengine-utils": "var window.VisualEngineUtils",
-    "@ali/lowcode-engine": "var window.AliLowCodeEngine",
-    "@alilc/lowcode-engine": "var window.AliLowCodeEngine",
-    "@ali/lowcode-engine-ext": "var window.AliLowCodeEngineExt",
-    "@alilc/lowcode-engine-ext": "var window.AliLowCodeEngineExt",
+    "@gant-lowcode/lowcode-engine": "var window.GantLowCodeEngine",
+    "@gant-lowcode/lowcode-engine-ext": "var window.GantLowCodeEngineExt",
     "monaco-editor/esm/vs/editor/editor.api": "var window.monaco",
     "monaco-editor/esm/vs/editor/editor.main.js": "var window.monaco",
-    "@alilc/lowcode-editor-skeleton": "var window.AliLowCodeEngine.common.skeletonCabin",
-    "@alilc/lowcode-editor-core": "var window.AliLowCodeEngine.common.editorCabin",
-    "@alilc/lowcode-designer": "var window.AliLowCodeEngine.common.designerCabin",
+    "@gant-lowcode/lowcode-editor-skeleton": "var window.GantLowCodeEngine.common.skeletonCabin",
+    "@gant-lowcode/lowcode-editor-core": "var window.GantLowCodeEngine.common.editorCabin",
+    "@gant-lowcode/lowcode-designer": "var window.GantLowCodeEngine.common.designerCabin",
   });
 
 

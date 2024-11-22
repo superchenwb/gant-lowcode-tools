@@ -1,4 +1,4 @@
-import { IPublicModelPluginContext } from '@alilc/lowcode-types';
+import { IPublicModelPluginContext } from '@gant-lowcode/lowcode-types';
 import ComponentsPane from '@alilc/lowcode-plugin-components-pane';
 const ComponentPanelPlugin = (ctx: IPublicModelPluginContext) => {
   return {

@@ -1,4 +1,4 @@
-import { material, project } from '@alilc/lowcode-engine';
+import { material, project } from '@gant-lowcode/lowcode-engine';
 import { Message } from '@alifd/next';
 export const SAVE_KEY = 'projectSchema';
 console.log(SAVE_KEY);
