@@ -5,11 +5,11 @@ import {
 } from '@gant-lowcode/lowcode-engine';
 import { IPublicModelPluginContext } from '@gant-lowcode/lowcode-types';
 import Logo from '../../builtIn/logo';
-import UndoRedo from '@alilc/lowcode-plugin-undo-redo';
-import ComponentsPane from '@alilc/lowcode-plugin-components-pane';
-import ZhEn from '@alilc/lowcode-plugin-zh-en';
-import SchemaPlugin from '@alilc/lowcode-plugin-schema';
-import CodeEditor from "@alilc/lowcode-plugin-code-editor";
+import UndoRedo from '@gant-lowcode/lowcode-plugin-undo-redo';
+import ComponentsPane from '@gant-lowcode/lowcode-plugin-components-pane';
+import ZhEn from '@gant-lowcode/lowcode-plugin-zh-en';
+import SchemaPlugin from '@gant-lowcode/lowcode-plugin-schema';
+import CodeEditor from "@gant-lowcode/lowcode-plugin-code-editor";
 import { getPageSchema, saveSchema, resetSchema, preview } from './utils';
 import assets from '../../public/assets.json';
 

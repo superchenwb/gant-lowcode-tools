@@ -4,8 +4,8 @@ import { Loading } from '@alifd/next';
 import mergeWith from 'lodash/mergeWith';
 import isArray from 'lodash/isArray';
 import { buildComponents, assetBundle, AssetLevel, AssetLoader } from '@gant-lowcode/lowcode-utils';
-import ReactRenderer from '@alilc/lowcode-react-renderer';
-import { injectComponents } from '@alilc/lowcode-plugin-inject';
+import ReactRenderer from '@gant-lowcode/lowcode-react-renderer';
+import { injectComponents } from '@gant-lowcode/lowcode-plugin-inject';
 import appHelper from './appHelper';
 import { getProjectSchemaFromLocalStorage, getPackagesFromLocalStorage, getPreviewLocale, setPreviewLocale } from './services/mockService';
 

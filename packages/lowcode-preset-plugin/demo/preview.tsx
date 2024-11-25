@@ -2,8 +2,8 @@ import ReactDOM from 'react-dom';
 import React, { useState } from 'react';
 import { Loading } from '@alifd/next';
 import { buildComponents, assetBundle, AssetLevel, AssetLoader } from '@gant-lowcode/lowcode-utils';
-import ReactRenderer from '@alilc/lowcode-react-renderer';
-import { injectComponents } from '@alilc/lowcode-plugin-inject';
+import ReactRenderer from '@gant-lowcode/lowcode-react-renderer';
+import { injectComponents } from '@gant-lowcode/lowcode-plugin-inject';
 import { createFetchHandler } from '@alilc/lowcode-datasource-fetch-handler'
 
 import { getPageSchemaFromLocalStorage, getPackages } from '../src/utils';
