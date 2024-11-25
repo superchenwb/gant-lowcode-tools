@@ -6,7 +6,7 @@ module.exports = {
   },
   plugins: [
     [
-      '@alifd/build-plugin-lowcode',
+      '@gant-lowcode/build-plugin-lowcode',
       {
         library,
         baseLibrary: 'rax',

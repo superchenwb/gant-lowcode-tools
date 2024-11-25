@@ -1,6 +1,6 @@
 {
   "name": "@gant-lowcode/build-plugin-lowcode",
-  "version": "0.4.9",
+  "version": "0.4.10",
   "description": "build plugin for component-to-lowcode",
   "main": "src/index.js",
   "keywords": [
@@ -25,7 +25,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@gant-lowcode/lowcode-material-parser": "^1.0.3",
+    "@alilc/lowcode-material-parser": "^1.0.3",
     "@alilc/lowcode-rax-renderer": "^1.0.2",
     "@gant-lowcode/lowcode-react-renderer": "1.3.7",
     "@gant-lowcode/lowcode-types": "^1.3.7",

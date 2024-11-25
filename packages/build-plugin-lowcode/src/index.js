@@ -637,7 +637,7 @@ async function bundleMetaV2(options, pluginOptions, execCompile, metaType) {
     npmInfo = {},
   } = pluginOptions || {};
   if (components && !Array.isArray(components)) {
-    console.error('[@alifd/build-plugin-lowcode] components must be Array<ComponentName: string>');
+    console.error('[@gant-lowcode/build-plugin-lowcode] components must be Array<ComponentName: string>');
     components = null;
   }
   const metaSuffix = metaType ? `.${metaType}` : '';
@@ -1045,7 +1045,7 @@ async function bundleAssets(options, pluginOptions, metaTypes, renderTypes, exec
           return await axios(url).then(({ data }) => data);
         } catch (e) {
           console.error(
-            `[@alifd/build-plugin-lowcode] get assets data from builtin assets ${url} failed: `,
+            `[@gant-lowcode/build-plugin-lowcode] get assets data from builtin assets ${url} failed: `,
             e,
           );
           return {};
@@ -1062,7 +1062,7 @@ async function bundleAssets(options, pluginOptions, metaTypes, renderTypes, exec
           return await axios(url).then(({ data }) => data);
         } catch (e) {
           console.error(
-            `[@alifd/build-plugin-lowcode] get assets data from builtin assets ${url} failed: `,
+            `[@gant-lowcode/build-plugin-lowcode] get assets data from builtin assets ${url} failed: `,
             e,
           );
           return {};
@@ -1240,7 +1240,7 @@ async function bundleComponentMeta(webPackConfig, options, pluginOptions, execCo
     lowcodeDir = 'lowcode',
   } = pluginOptions || {};
   if (components && !Array.isArray(components)) {
-    console.error('[@alifd/build-plugin-lowcode] components must be Array<ComponentName: string>');
+    console.error('[@gant-lowcode/build-plugin-lowcode] components must be Array<ComponentName: string>');
     components = null;
   }
 

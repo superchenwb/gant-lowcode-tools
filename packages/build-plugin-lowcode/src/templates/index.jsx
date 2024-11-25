@@ -9,7 +9,7 @@ let metaType = queryObject.get('metaType') || platform || '';
 const metaPathMap = {{{metaPathMap}}};
 const key = metaType ? `meta.${metaType}` : 'meta';
 if (!metaPathMap[key]) {
-  console.warn(`[@alifd/build-plugin-lowcode] metaType can only in [${Object.keys(metaPathMap)}], current metaType is ${key}, fullback to ${fullbackMeta || 'default'}.`);
+  console.warn(`[@gant-lowcode/build-plugin-lowcode] metaType can only in [${Object.keys(metaPathMap)}], current metaType is ${key}, fullback to ${fullbackMeta || 'default'}.`);
   metaType = fullbackMeta === 'default' ? '' : fullbackMeta;
 }
 const isNewEngineVersion = !!material;
